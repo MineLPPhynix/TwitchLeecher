@@ -403,14 +403,14 @@
                     </fa:ImageAwesome.ToolTip>
                 </fa:ImageAwesome>
 
-                <CheckBox Grid.Row="10" Grid.Column="2" IsChecked="{Binding CurrentPreferences.DownloadDisableConversion}" Content="Disable conversion to mp4 (also disables cropping)" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                <CheckBox Grid.Row="10" Grid.Column="2" IsChecked="{Binding CurrentPreferences.DownloadDisableConversion}" Content="Disable conversion to mp4" VerticalAlignment="Center" HorizontalAlignment="Left" />
                 <fa:ImageAwesome Grid.Row="10" Grid.Column="4" Style="{StaticResource Img_Help}">
                     <fa:ImageAwesome.ToolTip>
                         <ToolTip  Width="350">
                             <StackPanel>
                                 <TextBlock Style="{StaticResource TlToolTipHeadlineText}" Text="Disable conversion to mp4" />
                                 <TextBlock TextAlignment="Justify">
-                                    Depending on the video containing muted parts, frame drops or the encoding settings of the streamer, the conversion to mp4 can introduce A/V desync in rare cases. If you want to download the raw .ts video file from Twitch, enable this option. Cropping is not available in this mode.
+                                    Depending on the video containing muted parts, frame drops or the encoding settings of the streamer, the conversion to mp4 can introduce A/V desync in rare cases. Outputs streams as .ts video files.
                                 </TextBlock>
                             </StackPanel>
                         </ToolTip>
